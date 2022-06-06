@@ -10,6 +10,18 @@ print "Ingresa el numero de usuarios premium: "
 user_premium = gets.chomp.to_i
 print "Ingresa el numero de usuarios gratuitos: "
 user_gratuito = gets.chomp.to_i
-#realizando calculo de utilidad
-utilidad =(precio * numero_usuario) - gasto
-#realizar comparacion validad si fue utilidad o perdida
+print "Ingresa el gasto: "
+gastos = gets.chomp.to_i
+
+#calculo_usuarios= (user_comunes * precio) + (user_premium * (precio *2))
+calculo_usuarios= precio*(user_comunes + (user_premium*2)
+                + (user_gratuito*0))
+utilidad = calculo_usuarios - gastos
+#
+if utilidad > 0
+    puts "la utilidad es $#{utilidad * 0.65}"
+else
+    puts "La perdida fue de $#{utilidad.abs}"    
+end
+
+
