@@ -1,5 +1,5 @@
 #oedimos valor
-print "cuantas item tendra tu html"
+print "cuantas item tendra tu html "
 
 n_item= gets.chomp.to_i
 j=1
