@@ -6,8 +6,8 @@ def gen(n)
         texto=texto + letra
         letra=letra.next
     end
-    return texto
+ return texto.to_c
 end
 #mostrar en pantalla
 puts gen(4) #abcd
-puts gen(10) #abcdefghij
+puts gen(11) #abcdefghij
