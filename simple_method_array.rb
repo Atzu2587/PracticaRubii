@@ -15,3 +15,6 @@ puts ""
 puts arregloInt.include?(7)
 puts arregloString.include?("Cesar")
 puts arregloString.delete("Cesar")
+arregloString.delete_at(1)
+print arregloString
+print arregloString
