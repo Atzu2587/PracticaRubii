@@ -18,3 +18,7 @@ puts arregloString.delete("Cesar")
 arregloString.delete_at(1)
 print arregloString
 print arregloString
+print arregloInt
+puts""
+arregloInt.delete(rand(0..arregloInt.length))
+print arregloInt
