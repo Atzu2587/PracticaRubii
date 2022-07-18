@@ -9,7 +9,7 @@ class CuentaBancaria
         @vip = vip
     end
     def numero_de_cuenta
-        "#{@vip}-#{cuenta}"
+        "#{@vip}-#{@cuenta}"
     end
 end
 
